@@ -1,6 +1,6 @@
 Gem::Specification.new do |s| 
   s.name              = "omnigollum-bibanon"
-  s.version           = '0.1.0'
+  s.version           = '0.1.1'
   s.date              = Time.now.strftime('%Y-%m-%d')
   s.summary           =
         "Omnigollum makes it easy to use OmniAuth with Gollum"
@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   
   s.add_dependency('gollum-bibanon')
   s.add_dependency('omniauth')
-  s.add_dependency('mustache-bibanon')
   
   s.description       = <<desc
 Omnigollum adds support for OmniAuth in Gollum. It executes an OmniAuth::Builder proc/block to figure out which providers you've configured, then passes it on to omniauth to create the actual omniauth configuration.
